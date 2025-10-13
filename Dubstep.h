@@ -3,8 +3,9 @@
 #import <GNUstepGUI/GSTheme.h>
 
 @interface Dubstep: GSTheme
-{  
-  NSUserDefaults *defaults;
+{
+    id menuRegistry;
+    NSUserDefaults *defaults;
 }
 - (void)drawPathButton:(NSBezierPath *)path
                     in:(NSView *)view
